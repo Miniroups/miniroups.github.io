@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Roupsard David - Développeur Web </title>
+    <link rel="stylesheet" href="public/css/app.css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <base href="">
+  </head>
+
+  <body onwheel="scrollPage(event)">
+    <!-- Include of header -->
+    <header>
+  <nav>
+    <button id="menu-toggle">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </button>
+
+    <div id="menu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#1" class="nav-link">ROUPSARD David</a>
+        </li>
+        <li class="nav-item">
+          <a href="#2" class="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#3" class="nav-link">Compétences</a>
+        </li>
+        <li class="nav-item">
+          <a href="#4" class="nav-link">Expériences</a>
+        </li>
+        <li class="nav-item">
+          <a href="#5" class="nav-link">Diplômes</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+
+<!-- <img src="/public/img/logo-webroups-blanc.svg" alt="Logo de Web' Roups">-->
+    <!-- Injection of content -->
+    <div id="content">
+      <!-- Title -->
+
+<!-- Content -->
+<section id="1">
+  <h1>Roupsard David
+    <hr>
+  </h1>
+  <div class="resume">
+    <p>
+      Je suis un développeur web, d’origine normande habitant dans le limousin. Avec des compétences dans l’économie de la construction et les diagnostics immobiliers et j'aime admirer les étoiles. 
+    </p>
+    <p>
+      Je recherche des projets à réaliser, si vous voulez en connaître plus sur ma personne ou sur mon travail, n’hésitez pas à me contacter sur <span class="email">david.roupsard[arobase]gmail.com</span>
+    </p>
+    <img src="public/img/profile.png" alt="Photo de profil">
+  </div>
+</section>
+
+<section id="2">
+  <h2>Portfolio
+    <hr>
+  </h2>
+  <ul class="cardProjetContainer">
+        <li class="cardProjet">
+      <div class="imgParent">
+        <a class="view-case-action" data-target="idees-menus">
+          <img src="public/img/idees-menus.png"
+            alt="Capture d'écran du projet : Idées Menus">
+          <div>Étude de cas</div>
+        </a>
+      </div>
+      <h3>Idées Menus</h3>
+      <p>Ce projet de fin d'années dans le cadre de ma formation permet d'établir une liste de repas en fonction de vos envies et de générer la liste de courses adéquate.</p>
+    </li>
+        <li class="cardProjet">
+      <div class="imgParent">
+        <a class="view-case-action" data-target="creation-acier">
+          <img src="public/img/creation-acier.png"
+            alt="Capture d'écran du projet : Création Acier">
+          <div>Étude de cas</div>
+        </a>
+      </div>
+      <h3>Création Acier</h3>
+      <p>Créer lors de mon alternance chez la société BRL Sucla, ce site web propose une interface de devis en ligne pour différentes menuiseries acier.</p>
+    </li>
+        <li class="cardProjet">
+      <div class="imgParent">
+        <a class="view-case-action" data-target="chope-ta-biere">
+          <img src="public/img/boutiquechopetabiere.png"
+            alt="Capture d'écran du projet : Chope Ta Bière">
+          <div>Étude de cas</div>
+        </a>
+      </div>
+      <h3>Chope Ta Bière</h3>
+      <p>Cette boutique en ligne a été réalisée par le client grâce à Prestashop, je suis intervenu à plusieurs reprises pour de l'intégration de contenu.</p>
+    </li>
+      </ul>
+  <!-- Détails des différents projets -->
+  <article class="view-case" id="idees-menus">
+  <div class="inner-view-case">
+    <div class="view-case-header">
+      <h3>Idées Menus</h3>
+      <a class="view-case-close">X</a>
+    </div>
+    <div class="view-case-body-mobile">
+      <!-- Première colonne -->
+      <div class="first-column">
+        <div class="view-case-screen">
+          <div class="view-case-phone">
+            <img class="phone-border" src="public/img/idees-menus-accueil.png"
+              alt="Idées Menus - Page de selection des préférences">
+          </div>
+        </div>
+      </div>
+      <!-- Deuxième colonne -->
+      <div class="second-column">
+        <div class="view-case-resume">
+          <p class="first-l-blanc">
+            Ce projet a d'abord été pensé dans le but personnel de me simplifier les courses. Il a ensuite évolué vers un projet de validation de compétence pour mes études. Il permet d'établir une liste de repas aléatoire en fonction de vos envies, de vos moyens et du temps dont vous disposez.
+          </p>
+          <p>
+            Ensuite, la liste de courses générée automatiquement est accessible depuis la page éponyme. Nous pouvons aussi ajouter son propre repas afin de permettre un enrichissement de la base de données plus simplement. </p>
+          <p>
+            Tout ceci est possible sans inscription grâce à l'utilisation de cookies et d'une modération avant validation des nouveaux repas.
+          </p>
+        </div>
+      </div>
+      <!-- Troisième colonne -->
+      <div class="third-column">
+        <div class="view-case-phone">
+          <img class="phone-border" src="public/img/idees-menus-ajout.png"
+            alt="Idées Menus - Page d'ajout de nouveau repas">
+        </div>
+        <div class="view-case-phone">
+          <img class="phone-border" src="public/img/idees-menus-repas.png"
+            alt="Idées Menus - Page de votre sélection de repas">
+        </div>
+      </div>
+      <!-- Information du cas -->
+      <ul class="view-case-information">
+        <li>Année: <span>2019</span></li>
+        <li>Rôle: <span>Tous</span></li>
+        <li>Pattern: <span>MVC</span></li>
+      </ul>
+    </div>
+  </div>
+</article>
+  <article class="view-case" id="creation-acier">
+  <div class="inner-view-case">
+    <div class="view-case-header">
+      <h3>Création Acier</h3>
+      <a class="view-case-close">X</a>
+    </div>
+    <div class="view-case-body-desktop">
+      <!-- Première ligne -->
+      <div class="first-row">
+        <div class="view-case-screen">
+          <div class="view-case-desktop">
+            <img class="desktop-border" src="public/img/creation-acier-home.png"
+              alt="Création Acier - Page d'accueil">
+          </div>
+        </div>
+        <div class="view-case-resume">
+          <p class="first-l-blanc">
+            Création Acier est à ce jour mon plus gros projet. Réalisé à partir du contenu d'un site vitrine devant être remodelé pour y greffer une interface de devis en ligne. L'expérience utilisateur à d'abords été pensée pour une utilisation de bureau, avec bien sûr une version adapté pour téléphone et tablette.
+          </p>
+          <p>
+            La gamme de produits étant haut de gamme, nous avons fait appel à un web designer pour épurer le graphisme et mettre en avant les créations.
+          </p>
+        </div>
+      </div>
+      <!-- Deuxième ligne -->
+      <div class="second-row">
+        <div class="view-case-resume">
+          <p class="first-l-blanc">
+            L'interface de devis se compose de deux grandes parties, la création de ses éléments et l'envoie du devis
+            sous format PDF à l'utilisateur. Dans un premier temps l'utilisateur créé des éléments et s'assure grâce au
+            retour visuel instantané de l'apparence de ces derniers.
+          </p>
+          <p>
+            En parallèle, le prix du projet s'actualise à chaque modification. Une fois qu'au moins un élément est enregistré, le formulaire pour recevoir son devis apparé. Si l'utilisateur le souhaite, il recevra son devis près à être signé par mail.
+          </p>
+        </div>
+
+        <div class="view-case-screen">
+          <div class="view-case-desktop">
+            <img class="desktop-border" src="public/img/creation-acier-devis.png"
+            alt="Création Acier - Page de l'interface de devis">
+          </div>
+          <div class="view-case-desktop-mobile">
+            <img class="desktop-border-mobile"
+              src="public/img/creation-acier-devis-mobile.png"
+              alt="Création Acier - Page de l'interface de devis en mobile">
+          </div>
+        </div>
+      </div>
+      <!-- Information du cas -->
+      <ul class="view-case-information">
+        <li>Année: <span>2019</span></li>
+        <li>Rôle: <span>Développeur, Intégrateur</span></li>
+        <li>Frameworks: <span>Symfony 4</span></li>
+      </ul>
+    </div>
+  </div>
+</article>
+  <article class="view-case" id="chope-ta-biere">
+  <div class="inner-view-case">
+    <div class="view-case-header">
+      <h3>Chope ta bière</h3>
+      <a class="view-case-close">X</a>
+    </div>
+    <div class="view-case-body-mixte">
+      <div class="first-column">
+        <div class="view-case-screen">
+          <div class="view-case-phone" id="phone-left">
+            <img class="phone-border" src="public/img/chope-ta-biere-miniature.png"
+              alt="Miniature personnalisée des produits de Chope ta Bière">
+          </div>
+        </div>
+      </div>
+      <div class="second-column">
+        <div class="view-case-resume">
+          <p class="first-l-blanc">
+            Cette boutique de bière de microbrasserie française a été conçue par le client à l'aide du CMS Prestashop dans une volonté de faire le maximum soi-même.
+          </p>
+          <p>
+            Les créateurs de cette boutique ont fait appel à moi en tant que, principalement, intégrateur. La première occurrence fut pour le design de la page d'abonnement. Satisfait ils ont depuis fait de nouveau appel à mes services pour personnaliser les miniatures de leurs produits ainsi que leur page d'accueil.
+          </p>
+        </div>
+        <div class="subcolumn">
+          <div class="view-case-resume">
+            <p class="first-l-blanc">
+              Après quelque temps, le client a choisi de migrer vers une solution clefs en main pour la gestion de leurs abonnements. Encore une fois, je me suis occupé de l'intégration de leurs envies.
+            </p>
+          </div>
+          <div class="view-case-screen">
+            <div class="view-case-desktop">
+              <img class="desktop-border" src="public/img/boutiquechopetabiere.png"
+                alt="Présentation de la page d'abonnement à Chope ta Bière">
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="view-case-information">
+        <li>Année: <span>2019</span></li>
+        <li>Rôle: <span>Intégrateur</span></li>
+        <li>CMS: <span>Prestashop</span></li>
+      </ul>
+    </div>
+  </div>
+</article></section>
+
+<section id="3">
+  <h2>Compétences
+    <hr>
+  </h2>
+  <ul class="cardCompetenceContainer">
+    <li class="groupCompetence frontCompetence">
+            <div class="cardCompetence">
+        Maquettage      </div>
+            <div class="cardCompetence">
+        HTML5 / CSS3 / Bootstrap      </div>
+            <div class="cardCompetence">
+        Javascript / jQuery      </div>
+            <div class="cardCompetence">
+        Prestashop / Wordpress      </div>
+            <h3 id="frontTitle">Front-end</h3>
+    </li>
+    <li class="groupCompetence backCompetence">
+            <div class="cardCompetence">
+        Gestion de base de données      </div>
+            <div class="cardCompetence">
+        PHP7 / SQL      </div>
+            <div class="cardCompetence">
+        Programmation web      </div>
+            <div class="cardCompetence">
+        Développement CMS      </div>
+            <h3 id="backTitle">Back-end</h3>
+    </li>
+  </ul>
+</section>
+
+<section id="4">
+  <h2>Expériences
+    <hr>
+  </h2>
+  <ul class="cardExperienceContainer">
+        <li class="cardExperience">
+      <h3>Programme Leonardo</h3>
+      <h5>Cork Community Art Link - Cork (Irlande)</h5>
+      <ul><li>Conception d'objet d'art</li>
+<li>Expérience de l'anglais en immersion
+</li>
+<li>Résistance à la météo Irlandaise</li></ul>
+      <p>
+        <time datetime="2014-03-04 00:00:00">Mars 2014</time> - <time
+          datetime="2014-05-17 00:00:00">Mai 2014</time>
+      </p>
+      <img src="public/img/CCAL.jpg"
+        alt="Logo de Programme Leonardo">
+    </li>
+        <li class="cardExperience">
+      <h3>Technicien de diagnostic</h3>
+      <h5>Expertam - Paris</h5>
+      <ul><li>Réalisation de diagnostics</li>
+<li>Mise en place d'un outil tablette</li>
+<li>Formation des nouveaux arrivants</li></ul>
+      <p>
+        <time datetime="2014-09-22 00:00:00">Septembre 2014</time> - <time
+          datetime="2018-07-16 00:00:00">Juillet 2018</time>
+      </p>
+      <img src="public/img/expertam.png"
+        alt="Logo de Technicien de diagnostic">
+    </li>
+        <li class="cardExperience">
+      <h3>Développeur Web</h3>
+      <h5>BRL Sucla - Ussel</h5>
+      <ul><li>Réalisation de site web</li>
+<li>Création Acier</li>
+<li>Alternance pour titre professionelle</li></ul>
+      <p>
+        <time datetime="2019-02-04 00:00:00">Février 2019</time> - <time
+          datetime="2020-02-29 00:00:00">Février 2020</time>
+      </p>
+      <img src="public/img/sucla.png"
+        alt="Logo de Développeur Web">
+    </li>
+      </ul>
+</section>
+
+<section id="5">
+  <h2 class="h2white">Diplômes
+    <hr>
+  </h2>
+  <ul class="cardDiplomeContainer">
+        <li class="cardDiplome">
+      <h3>Ginger CATED - Élancourt</h3>
+      <h5>Certifications diagnostics immobiliers</h5>
+      <ul><li>Amiante avec et sans mention</li>
+<li>Plomb, Gaz & Électricité</li></ul>
+    </li>
+        <li class="cardDiplome">
+      <h3>Freyssinet - Saint-brieuc</h3>
+      <h5>BTS Études et Économies de la Construction</h5>
+      <ul><li>Calcul théorique du coût d'une construction</li>
+<li>Maîtrise d'oeuvre, descente de charges</li></ul>
+    </li>
+      </ul>
+</section>    </div>
+
+    <div class="page-number"><span id="current-page-number">1</span>&nbsp| 5</div>
+
+    <!-- Include of footer -->
+    <footer>
+  <span>
+    Copyright &copy; 2019  </span>
+  <span>
+    Web' Roups - ROUPSARD David
+  </span>
+</footer>
+    <!-- Script files links -->
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/popper.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/app.js"></script>
+  </body>
+
+</html>
