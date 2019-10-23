@@ -383,7 +383,7 @@ p.first-l-bleu::first-letter {
   border: 5px solid var(--bleu);
   background-image: url('../img/bg.jpg');
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
 }
 
 @media screen and (max-width: 768px) {
