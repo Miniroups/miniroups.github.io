@@ -191,7 +191,7 @@ header {
     background-color: #fff;
   }
 
-  .menuIsOpen {
+  #menu.active {
     left: 0 !important;
   }
 }
