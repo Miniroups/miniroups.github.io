@@ -40,6 +40,10 @@
   font-family: 'Raleway', sans-serif;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 /* Header / Menu */
 header {
   position: fixed;
